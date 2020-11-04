@@ -160,7 +160,7 @@ fn main() {
         }
 
         // Force piece down on interval
-        if  n_speed_count == n_speed {
+        if n_speed_count == n_speed {
             // Update difficulty every 50 pieces
             n_speed_count = 0;
             n_piece_count += 1;
